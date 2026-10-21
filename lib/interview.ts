@@ -27,3 +27,5 @@ export type InterviewRequest = {
 export type InterviewResponse =
   | { type: "question"; questionNumber: number; content: string }
   | { type: "evaluation"; evaluation: Evaluation };
+
+export const API_KEY_HEADER = "x-openai-api-key";
